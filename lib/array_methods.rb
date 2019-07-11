@@ -15,12 +15,8 @@ def find_max_value(array)
 length = array.length
 array = array.sort  
 
-  length.times do |largest_number|
-  if array[largest_number] == array[-1]
-  largest_number = array[-1]
- end
- end
- largest_number
+largest_number = array[-1]
+largest_number
 end
 
 
