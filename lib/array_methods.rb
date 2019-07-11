@@ -27,7 +27,7 @@ length = array.length
   
   length.times do |smallest_number|
     if array[smallest_number] == array.min
-      puts array[largest_number]
+      puts array[smallest_number]
   end
  end
 end
