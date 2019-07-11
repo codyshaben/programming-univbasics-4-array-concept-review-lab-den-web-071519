@@ -13,6 +13,7 @@ end
 
 def find_max_value(array)
   length = array.length
+  max = array.max
   
   length.times do |largest_number|
     if array[largest_number] == max(array)
