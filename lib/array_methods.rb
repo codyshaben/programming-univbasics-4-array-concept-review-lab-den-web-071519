@@ -12,7 +12,6 @@ end
 
 
 def find_max_value(array)
-length = array.length
 array = array.sort  
 
 largest_number = array[-1]
@@ -22,10 +21,7 @@ end
 
 def find_min_value(array)
 length = array.length
+array = array.sort
   
-  length.times do |smallest_number|
-    if array[smallest_number] == array.min
-      puts array[smallest_number]
-  end
- end
+
 end
