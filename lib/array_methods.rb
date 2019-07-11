@@ -20,8 +20,8 @@ end
 
 
 def find_min_value(array)
-length = array.length
 array = array.sort
   
-
+smallest_number = array[0]
+smallest_number
 end
