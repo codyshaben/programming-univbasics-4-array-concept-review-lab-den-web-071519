@@ -29,4 +29,5 @@ length = array.length
     if array[smallest_number] == array.min
       puts array[largest_number]
   end
+ end
 end
