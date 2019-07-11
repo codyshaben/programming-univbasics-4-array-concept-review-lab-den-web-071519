@@ -16,9 +16,7 @@ length = array.length
 array = array.sort
   
   length.times do |largest_number|
-    if array[largest_number] == array.max
-      puts array[largest_number]
-  end
+  largest_number[-1]
  end
 end
 
